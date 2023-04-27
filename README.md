@@ -1,3 +1,2 @@
-# Modify this portfolio
+# Welcome to Sarah Mahdi's Portfolio
 
-Make it your own! 
