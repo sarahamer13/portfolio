@@ -85,10 +85,10 @@
             "name": "Bootstrap"
           }
         ]
-
       }
-    ]
- "experience": [
+  ],
+      "experience": [
+      {
         "company": "Code Fellows",
         "title": "Student",
         "years": "09/2022 - 04/3023",
@@ -105,6 +105,6 @@
         ]
       }
     ]
-}
+  }
   
 
