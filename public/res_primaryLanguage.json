@@ -1,118 +1,109 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "Hi there! My name is Sarah Mahdi and I have a background in the healthcare field and before that I served in the military as a linguist. While I enjoyed my previous job in the pharmaceutical industry, I found my passion in building things.The versatility and potential of software development are truly phenomenal, and I want to be part of it. I am amazed and fascinated by how technology is evolving and always have been since I was in 8th grade.One of my strongest skills is researching to find the best solution to a problem, which this has been a big part of my previous two jobs",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
-    },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
+"basic_info": {
+  "description_header": "Hi",
+  "description": "Hi there! My name is Sarah Mahdi and I have a background in the healthcare field and before that I served in the military as a linguist. While I enjoyed my previous job in the pharmaceutical industry, I found my passion in building things.The versatility and potential of software development are truly phenomenal, and I want to be part of it. I am amazed and fascinated by how technology is evolving and always have been since I was in 8th grade.One of my strongest skills is researching to find the best solution to a problem, which this has been a big part of my previous two jobs",
+  "section_name": {
+    "about": "About me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience"
+  }
+},
+"projects": [
+  {
+    "title": "Salmon Cookies",
+    "startDate": "2023",
+    "description": "This is the big first project I got to learn how to build a table to display the hourly sale for multiple store locations along with displaying the amount of cookies sold daily across all locations. Also, I got to display the store locations all over all the world and what the store offers. This was my first time learning how to build a two pages website",
+    "images": [
+      "images/portfolio/salmon-cookies/salmon cookies home.png",
+      "images/portfolio/salmon-cookies/salmon cookies 2.png",
+      "images/portfolio/salmon-cookies/salmon cookies sales.png"
     ],
-    "experience": [
+    "url": "https://github.com/sarahamer13/cookie-stand",
+    "technologies": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
+        "class": "devicon-javascript-plain",
+        "name": "JavaScript"
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
+        "class": "devicon-html5-plain",
+        "name": "HTML5"
+      },
+      {
+        "class": "devicon-css3-plain",
+        "name": "CSS3"
+      }
+    ]
+  },
+  {
+    "title": "MilkshakesRUs",
+    "startDate": "2023",
+    "description": "This project was our final project for 201, where the customer can customize their own milkshakes after answering 4 questions. The recommended product will be displayed along with calories and price. We used Modal for this milkshakes website and it was a fun project overall",
+    "images": [
+      "images/portfolio/milkshakesRUs/milkshakesrus1.png",
+      "images/portfolio/milkshakesRUs/milkshakesrus2.png",
+      "images/portfolio/milkshakesRUs/milkshakesrus3.png"
+
+    ],
+    "url": "https://codefellows-201n30-team1.github.io/MilkshakesRUs/",
+    "technologies": [
+      {
+        "class": "devicon-javascript-plain",
+        "name": "JavaScript"
+      },
+      {
+        "class": "devicon-html5-plain",
+        "name": "HTML5"
+      },
+      {
+        "class": "devicon-css3-plain",
+        "name": "CSS3"
+      }
+    ]
+  },
+  {
+    "title": "Gallery Of Horns",
+    "startDate": "2023",
+    "description": "This was my first project using React. It's about different animals who have many horns that can range from zero to one hundred. I used cards to display each beast and a favorite button plus I created a form that can sort them by horns.",
+    "images": [
+      "images/portfolio/gallery-horns/gallery-horns-home.png",
+      "images/portfolio/gallery-horns/gallery-horns-card.png"
+      
+    ],
+    "url": "https://chimerical-daffodil-188f5d.netlify.app/",
+    "technologies": [
+      {
+        "class": "devicon-react-original",
+        "name": "React"
+      },
+      {
+        "class": "devicon-javascript-plain",
+        "name": "JavaScript"
+      },
+      {
+        "class": "devicon-bootstrap-plain",
+        "name": "Bootstrap"
       }
     ]
   }
+],
+"experience": [
+  {
+    "company": "Code Fellows",
+    "title": "Student",
+    "years": "09/2022 - 04/3023",
+    "mainTech": [
+      "Software Development in JavaScript"
+    ],
+    "technologies": [
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "React",
+      "Bootstrap",
+      "Netlify"
+    ]
+  }
+]
+}
+
