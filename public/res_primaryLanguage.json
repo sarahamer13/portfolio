@@ -13,11 +13,11 @@
       {
         "title": "Salmon Cookies",
         "startDate": "2023",
-        "description": "This is the big first project I got to work on using table and a lot of Css .",
+        "description": "This is the big first project I got to learn how to build a table to display the hourly sale for multiple store locations along with displaying the amount of cookies sold daily across all locations. Also, I got to display the store locations all over all the world and what the store offers. This was my first time learning how to build a two pages website",
         "images": [
-          "images/portfolio/salmon cookies home.png",
-          "images/portfolio/salmon cookies 2.png",
-          "images/portfolio/salmon cookies sales.png"
+          "images/portfolio/salmon-cookies/salmon cookies home.png",
+          "images/portfolio/salmon-cookies/salmon cookies 2.png",
+          "images/portfolio/salmon-cookies/salmon cookies sales.png"
         ],
         "url": "https://github.com/sarahamer13/cookie-stand",
         "technologies": [
@@ -38,32 +38,37 @@
       {
         "title": "MilkshakesRUs",
         "startDate": "2023",
-        "description": "This project was our final project for 201.",
+        "description": "This project was our final project for 201, where the customer can customize their own milkshakes after answering 4 questions. The recommended product will be displayed along with calories and price. We used Modal for this milkshakes website and it was a fun project overall",
         "images": [
-          "images/portfolio/milkshakesrus1.png",
-          "images/portfolio/milkshakesrus2.png",
-          "images/portfolio/milkshakesrus3.png"
+          "images/portfolio/milkshakesRUs/milkshakesrus1.png",
+          "images/portfolio/milkshakesRUs/milkshakesrus2.png",
+          "images/portfolio/milkshakesRUs/milkshakesrus3.png"
 
         ],
         "url": "https://codefellows-201n30-team1.github.io/MilkshakesRUs/",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           }
         ]
       },
       {
         "title": "Gallery Of Horns",
         "startDate": "2023",
-        "description": "This was my first project using React, where I got to build. It's about different animals who have many horns that can range from zero to one hundred. I used cards to display each beast and a favorite button plus I created a form that can sort them by horns.",
+        "description": "This was my first project using React. It's about different animals who have many horns that can range from zero to one hundred. I used cards to display each beast and a favorite button plus I created a form that can sort them by horns.",
         "images": [
-          "images/portfolio/gallery-horns-card.png",
-          "images/portfolio/gallery-horns-home.png"
+          "images/portfolio/gallery-horns/gallery-horns-home.png",
+          "images/portfolio/gallery-horns/gallery-horns-card.png"
+          
         ],
         "url": "https://chimerical-daffodil-188f5d.netlify.app/",
         "technologies": [
