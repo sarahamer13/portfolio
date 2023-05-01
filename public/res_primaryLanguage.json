@@ -36,74 +36,75 @@
     ]
   },
   {
-    "title": "MilkshakesRUs",
-    "startDate": "2023",
-    "description": "This project was our final project for 201, where the customer can customize their own milkshakes after answering 4 questions. The recommended product will be displayed along with calories and price. We used Modal for this milkshakes website and it was a fun project overall",
-    "images": [
-      "images/portfolio/milkshakesRUs/milkshakesrus1.png",
-      "images/portfolio/milkshakesRUs/milkshakesrus2.png",
-      "images/portfolio/milkshakesRUs/milkshakesrus3.png"
+        "title": "MilkshakesRUs",
+        "startDate": "2023",
+        "description": "This project was our final project for 201, where the customer can customize their own milkshakes after answering 4 questions. The recommended product will be displayed along with calories and price. We used Modal for this milkshakes website and it was a fun project overall",
+        "images": [
+          "images/portfolio/milkshakesRUs/milkshakesrus1.png",
+          "images/portfolio/milkshakesRUs/milkshakesrus2.png",
+          "images/portfolio/milkshakesRUs/milkshakesrus3.png"
 
-    ],
-    "url": "https://codefellows-201n30-team1.github.io/MilkshakesRUs/",
-    "technologies": [
-      {
-        "class": "devicon-javascript-plain",
-        "name": "JavaScript"
+        ],
+        "url": "https://codefellows-201n30-team1.github.io/MilkshakesRUs/",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          }
+        ]
       },
       {
-        "class": "devicon-html5-plain",
-        "name": "HTML5"
-      },
-      {
-        "class": "devicon-css3-plain",
-        "name": "CSS3"
+        "title": "Gallery Of Horns",
+        "startDate": "2023",
+        "description": "This was my first project using React. It's about different animals who have many horns that can range from zero to one hundred. I used cards to display each beast and a favorite button plus I created a form that can sort them by horns.",
+        "images": [
+          "images/portfolio/gallery-horns/gallery-horns-home.png",
+          "images/portfolio/gallery-horns/gallery-horns-card.png"
+          
+        ],
+        "url": "https://chimerical-daffodil-188f5d.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+
       }
     ]
-  },
-  {
-    "title": "Gallery Of Horns",
-    "startDate": "2023",
-    "description": "This was my first project using React. It's about different animals who have many horns that can range from zero to one hundred. I used cards to display each beast and a favorite button plus I created a form that can sort them by horns.",
-    "images": [
-      "images/portfolio/gallery-horns/gallery-horns-home.png",
-      "images/portfolio/gallery-horns/gallery-horns-card.png"
-      
-    ],
-    "url": "https://chimerical-daffodil-188f5d.netlify.app/",
-    "technologies": [
-      {
-        "class": "devicon-react-original",
-        "name": "React"
-      },
-      {
-        "class": "devicon-javascript-plain",
-        "name": "JavaScript"
-      },
-      {
-        "class": "devicon-bootstrap-plain",
-        "name": "Bootstrap"
+ "experience": [
+        "company": "Code Fellows",
+        "title": "Student",
+        "years": "09/2022 - 04/3023",
+        "mainTech": [
+          "Software Development in JavaScript"
+        ],
+        "technologies": [
+          "JavaScript",
+          "HTML5",
+          "CSS3",
+          "React",
+          "Bootstrap",
+          "Netlify"
+        ]
       }
     ]
-  }
-],
-"experience": [
-  {
-    "company": "Code Fellows",
-    "title": "Student",
-    "years": "09/2022 - 04/3023",
-    "mainTech": [
-      "Software Development in JavaScript"
-    ],
-    "technologies": [
-      "JavaScript",
-      "HTML5",
-      "CSS3",
-      "React",
-      "Bootstrap",
-      "Netlify"
-    ]
-  }
-]
 }
+  
 
