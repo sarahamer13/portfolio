@@ -57,6 +57,11 @@
             "name": "VSCode",
             "class": "devicon-vscode-plain",
             "level": "95"
+          },
+          {
+            "name": "MongoDB",
+            "class": "devicon-mongodb-plain",
+            "level": "95"
           }
       ]
     }

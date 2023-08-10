@@ -91,7 +91,7 @@
       {
         "company": "Code Fellows",
         "title": "Student",
-        "years": "09/2022 - 04/3023",
+        "years": "09/2022 - 06/3023",
         "mainTech": [
           "Software Development in JavaScript"
         ],
@@ -101,7 +101,8 @@
           "CSS3",
           "React",
           "Bootstrap",
-          "Netlify"
+          "Netlify",
+          "MongoDB"
         ]
       }
     ]
