@@ -6,7 +6,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
-import Experience from "./components/Experience"; // ✅ Added
+import Experience from "./components/Experience";
+import Education from "./components/Education"; // ✅ Added Education import
 
 class App extends Component {
   constructor(props) {
@@ -109,6 +110,15 @@ class App extends Component {
             element={
               <Experience
                 resumeExperience={this.state.resumeData.experience}
+                resumeBasicInfo={this.state.resumeData.basic_info}
+              />
+            }
+          />
+          <Route
+            path="/education"
+            element={
+              <Education
+                resumeEducation={this.state.resumeData.education}
                 resumeBasicInfo={this.state.resumeData.basic_info}
               />
             }
