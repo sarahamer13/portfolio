@@ -1,20 +1,19 @@
 {
   "basic_info": {
-  "name": "Sarah Mahdi",
-  "titles": [
-    "Product Owner",
-    "CSPO | CSM | Healthcare & Cybersecurity"
-  ],
-  "description_header": "Hi",
-  "description": "Hi there! I'm Sarah Mahdi — a Certified Scrum Product Owner (CSPO) and Scrum Master (CSM) with a unique background that blends healthcare, military service, and tech. I began my career as a linguist in the U.S. military, then transitioned into the pharmaceutical industry, where I developed a strong foundation in regulated environments and patient access. While I appreciated my previous roles, I discovered a true passion for building meaningful digital solutions that improve people’s lives. I’ve since expanded my skills into software development, product ownership, and data analysis. My strengths lie in customer empathy, research-driven decision-making, and translating complex problems into practical, user-centered products. I thrive at the intersection of innovation, impact, and iteration.",
-  "section_name": {
-    "about": "About me",
-    "projects": "Projects",
-    "skills": "Skills",
-    "experience": "Experience"
-  }
- }
-},
+    "name": "Sarah Mahdi",
+    "titles": [
+      "Product Owner",
+      "CSPO | CSM | Healthcare & Cybersecurity"
+    ],
+    "description_header": "Hi",
+    "description": "Hi there! I'm Sarah Mahdi — a Certified Scrum Product Owner (CSPO) and Scrum Master (CSM) with a unique background that blends healthcare, military service, and tech. I began my career as a linguist in the U.S. military, then transitioned into the pharmaceutical industry, where I developed a strong foundation in regulated environments and patient access. While I appreciated my previous roles, I discovered a true passion for building meaningful digital solutions that improve people’s lives. I’ve since expanded my skills into software development, product ownership, and data analysis. My strengths lie in customer empathy, research-driven decision-making, and translating complex problems into practical, user-centered products. I thrive at the intersection of innovation, impact, and iteration.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
   "projects": [
     {
       "title": "Flashcard Simulation – Iraqi Arabic for Kids",
@@ -76,7 +75,7 @@
       "startDate": "2023",
       "description": "Built a full-stack park locator tool. I led requirement gathering and documentation, created an API roadmap, and collaborated on both backend and React frontend development. We used Trello for backlog grooming and Mural for wireframes.",
       "images": [
-        "images/portfolio/data-analysis/parkfinder1.png"
+        "images/portfolio/park-finder/parkfinder1.png"
       ],
       "url": "https://github.com/sarahamer13/park-finder",
       "technologies": [
