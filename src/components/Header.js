@@ -31,9 +31,15 @@ class Header extends Component {
       this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
-    const HeaderTitleTypeAnimation = React.memo( () => {
-      return this.titles
-    }, (props, prevProp) => true);
+   const HeaderTitleTypeAnimation = () => {
+  return (
+    <div>
+      {this.titles && this.titles.map((title, index) => (
+        <h3 className="header-title" key={index}>{title}</h3>
+      ))}
+    </div>
+  );
+};
 
     return (
       <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
