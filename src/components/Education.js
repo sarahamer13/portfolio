@@ -13,15 +13,17 @@ class Education extends Component {
             <div className="card shadow-sm p-4 h-100">
               <h4 className="mb-2">
                 <FaGraduationCap className="me-2" />
-                {edu.degree}
+                {edu.title}
               </h4>
               <h5 className="text-muted">{edu.school}</h5>
               <p className="text-secondary mb-1"><strong>Years:</strong> {edu.years}</p>
-              <ul className="mb-0">
-                {edu.details.map((point, index) => (
-                  <li key={index}>{point}</li>
-                ))}
-              </ul>
+              {edu.technologies && (
+                <ul className="mb-0">
+                  {edu.technologies.map((tech, index) => (
+                    <li key={index}>{tech}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           </div>
         );
