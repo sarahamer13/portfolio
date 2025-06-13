@@ -3,9 +3,8 @@ import { FaGraduationCap } from "react-icons/fa";
 
 class Education extends Component {
   render() {
-    render() {
-      console.log("✅ resumeEducation:", this.props.resumeEducation);
-      console.log("✅ resumeBasicInfo:", this.props.resumeBasicInfo);
+    console.log("✅ resumeEducation:", this.props.resumeEducation);
+    console.log("✅ resumeBasicInfo:", this.props.resumeBasicInfo);
 
     let sectionName, education;
 
