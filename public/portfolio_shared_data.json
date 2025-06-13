@@ -119,19 +119,19 @@
         "Applied Agile principles to manage sprints and backlogs.",
         "Led user research and MVP planning for product and portfolio projects."
       ]
-    },
+    }
+  ],
+  "education": [
     {
-      "title": "Graduate Student – M.S. in Cybersecurity Engineering",
-      "company": "University of San Diego",
+      "degree": "M.S. in Cybersecurity Engineering",
+      "school": "University of San Diego",
       "years": "2024 – Present",
-      "description": [
+      "details": [
         "Conducting hands-on labs in vulnerability assessment, Nmap scanning, and Windows security hardening.",
         "Collaborating on capstone projects blending healthcare, product management, and cybersecurity principles.",
         "Building a portfolio of simulations and educational tools."
       ]
-    }
-  ],
-  "education": [
+    },
     {
       "degree": "Bachelor of Science in Healthcare Administration",
       "school": "University of Phoenix",
