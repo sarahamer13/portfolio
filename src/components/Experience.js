@@ -7,35 +7,34 @@ import "react-vertical-timeline-component/style.min.css";
 
 class Experience extends Component {
   render() {
-    let sectionName, work;
+    let sectionName = "";
+    let work = [];
 
-    if (this.props.resumeExperience && this.props.resumeBasicInfo) {
-      sectionName = this.props.resumeBasicInfo.section_name.experience;
-      work = this.props.resumeExperience.map((role, i) => {
-        return (
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={role.years}
-            iconStyle={{
-              background: "#AE944F",
-              color: "#fff",
-              textAlign: "center",
-            }}
-            icon={
-              <i className="fas fa-briefcase experience-icon"></i>
-            }
-            key={i}
-          >
-            <h3 className="vertical-timeline-element-title">{role.title}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{role.company}</h4>
-            <ul className="mt-3">
-              {role.description.map((point, index) => (
-                <li key={index}>{point}</li>
-              ))}
-            </ul>
-          </VerticalTimelineElement>
-        );
-      });
+    const { resumeExperience, resumeBasicInfo } = this.props;
+
+    if (resumeExperience && resumeBasicInfo) {
+      sectionName = resumeBasicInfo.section_name?.experience || "Experience";
+      work = resumeExperience.map((role, i) => (
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date={role.years}
+          iconStyle={{
+            background: "#AE944F",
+            color: "#fff",
+            textAlign: "center",
+          }}
+          icon={<i className="fas fa-briefcase experience-icon"></i>}
+          key={i}
+        >
+          <h3 className="vertical-timeline-element-title">{role.title}</h3>
+          <h4 className="vertical-timeline-element-subtitle">{role.company}</h4>
+          <ul className="mt-3">
+            {(role.description || []).map((point, index) => (
+              <li key={index}>{point}</li>
+            ))}
+          </ul>
+        </VerticalTimelineElement>
+      ));
     }
 
     return (
