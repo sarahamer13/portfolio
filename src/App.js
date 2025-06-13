@@ -118,8 +118,8 @@ class App extends Component {
             path="/education"
             element={
               <Education
-                resumeEducation={this.state.resumeData.education}
-                resumeBasicInfo={this.state.resumeData.basic_info}
+                resumeEducation={this.state.sharedData.education}
+                resumeBasicInfo={this.state.sharedData.basic_info}
               />
             }
           />
