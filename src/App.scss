@@ -102,6 +102,13 @@ header .nav .nav-link.active {
 	color: white;
 }
 
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
 .skills-tile {
 	background-color: transparentize(#F8F5F4, 0.95);
 	padding: 10px 10px 5px 10px;
