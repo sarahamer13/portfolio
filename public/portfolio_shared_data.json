@@ -1,68 +1,82 @@
 {
-    "basic_info": {
-      "name": "Sarah Mahdi",
-      "titles": [ "Software Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/sarahamer13",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/sarahmahdi/",
-          "class": "fab fa-linkedin"
-        }
-      ],
-      "image": "myProfile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-            "name": "React",
-            "class": "devicon-react-original",
-            "level": "70"
-          },
-          {
-            "name": "Git",
-            "class": "devicon-git-plain",
-            "level": "70"
-          },
-          {
-            "name": "GitHub",
-            "class": "devicon-github-original",
-            "level": "95"
-          },
-          {
-            "name": "VSCode",
-            "class": "devicon-vscode-plain",
-            "level": "95"
-          },
-          {
-            "name": "MongoDB",
-            "class": "devicon-mongodb-plain",
-            "level": "95"
-          }
-      ]
-    }
+  "basic_info": {
+    "name": "Sarah Mahdi",
+    "titles": [
+      "Product Owner",
+      "CSPO | CSM | Agile Advocate",
+      "Healthcare & Cybersecurity Background"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/sarahamer13",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/sarahmahdi/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Agile / Scrum",
+        "class": "fas fa-project-diagram",
+        "level": "95"
+      },
+      {
+        "name": "User Story Writing",
+        "class": "fas fa-file-alt",
+        "level": "90"
+      },
+      {
+        "name": "Figma",
+        "class": "fab fa-figma",
+        "level": "85"
+      },
+      {
+        "name": "Trello",
+        "class": "fab fa-trello",
+        "level": "90"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "80"
+      },
+      {
+        "name": "pandas",
+        "class": "fas fa-database",
+        "level": "80"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "75"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": "70"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "80"
+      },
+      {
+        "name": "Netlify",
+        "class": "fab fa-neos",
+        "level": "90"
+      },
+      {
+        "name": "Jupyter Notebook",
+        "class": "fas fa-book",
+        "level": "80"
+      }
+    ]
   }
+}

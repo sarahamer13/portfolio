@@ -1,111 +1,126 @@
 {
-"basic_info": {
-  "description_header": "Hi",
-  "description": "Hi there! My name is Sarah Mahdi and I have a background in the healthcare field and before that I served in the military as a linguist. While I enjoyed my previous job in the pharmaceutical industry, I found my passion in building things.The versatility and potential of software development are truly phenomenal, and I want to be part of it. I am amazed and fascinated by how technology is evolving and always have been since I was in 8th grade.One of my strongest skills is researching to find the best solution to a problem, which this has been a big part of my previous two jobs",
-  "section_name": {
-    "about": "About me",
-    "projects": "Projects",
-    "skills": "Skills",
-    "experience": "Experience"
-  }
-},
-"projects": [
-  {
-    "title": "Salmon Cookies",
-    "startDate": "2023",
-    "description": "This is the big first project I got to learn how to build a table to display the hourly sale for multiple store locations along with displaying the amount of cookies sold daily across all locations. Also, I got to display the store locations all over all the world and what the store offers. This was my first time learning how to build a two pages website",
-    "images": [
-      "images/portfolio/salmon-cookies/salmon cookies home.png",
-      "images/portfolio/salmon-cookies/salmon cookies 2.png",
-      "images/portfolio/salmon-cookies/salmon cookies sales.png"
+  "basic_info": {
+    "name": "Sarah Mahdi",
+    "titles": [
+      "Product Owner",
+      "CSPO | CSM | Healthcare & Cybersecurity"
     ],
-    "url": "https://github.com/sarahamer13/cookie-stand",
-    "technologies": [
-      {
-        "class": "devicon-javascript-plain",
-        "name": "JavaScript"
-      },
-      {
-        "class": "devicon-html5-plain",
-        "name": "HTML5"
-      },
-      {
-        "class": "devicon-css3-plain",
-        "name": "CSS3"
-      }
-    ]
+    "description_header": "Hi",
+    "description": "Hi there! I'm Sarah Mahdi — a Certified Scrum Product Owner (CSPO) and Scrum Master (CSM) with a unique background that blends healthcare, military service, and tech. I began my career as a linguist in the U.S. military, then transitioned into the pharmaceutical industry, where I developed a strong foundation in regulated environments and patient access. While I appreciated my previous roles, I discovered a true passion for building meaningful digital solutions that improve people’s lives. I’ve since expanded my skills into software development, product ownership, and data analysis. My strengths lie in customer empathy, research-driven decision-making, and translating complex problems into practical, user-centered products. I thrive at the intersection of innovation, impact, and iteration.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
   },
-  {
-        "title": "MilkshakesRUs",
-        "startDate": "2023",
-        "description": "This project was our final project for 201, where the customer can customize their own milkshakes after answering 4 questions. The recommended product will be displayed along with calories and price. We used Modal for this milkshakes website and it was a fun project overall",
-        "images": [
-          "images/portfolio/milkshakesRUs/milkshakesrus1.png",
-          "images/portfolio/milkshakesRUs/milkshakesrus2.png",
-          "images/portfolio/milkshakesRUs/milkshakesrus3.png"
-
-        ],
-        "url": "https://codefellows-201n30-team1.github.io/MilkshakesRUs/",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          }
-        ]
-      },
-      {
-        "title": "Gallery Of Horns",
-        "startDate": "2023",
-        "description": "This was my first project using React. It's about different animals who have many horns that can range from zero to one hundred. I used cards to display each beast and a favorite button plus I created a form that can sort them by horns.",
-        "images": [
-          "images/portfolio/gallery-horns/gallery-horns-home.png",
-          "images/portfolio/gallery-horns/gallery-horns-card.png"
-          
-        ],
-        "url": "https://chimerical-daffodil-188f5d.netlify.app/",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
-          }
-        ]
-      }
-  ],
-      "experience": [
-      {
-        "company": "Code Fellows",
-        "title": "Student",
-        "years": "09/2022 - 06/3023",
-        "mainTech": [
-          "Software Development in JavaScript"
-        ],
-        "technologies": [
-          "JavaScript",
-          "HTML5",
-          "CSS3",
-          "React",
-          "Bootstrap",
-          "Netlify",
-          "MongoDB"
-        ]
-      }
-    ]
-  }
-  
-
+  "projects": [
+    {
+      "title": "Flashcard Simulation – Iraqi Arabic for Kids",
+      "startDate": "2025",
+      "description": "A clickable flashcard simulation designed to teach Iraqi Arabic greetings to young learners using cartoon animals. As a Product Owner, I created the MVP scope, backlog, and prototype in PowerPoint, and structured it for online use as a printable learning product. This project showcases my ability to lead educational UX design and Agile documentation.",
+      "images": [
+        "images/portfolio/flashcards/flashcard1.png",
+        "images/portfolio/flashcards/flashcard2.png"
+      ],
+      "url": "https://yourgooglesiteportfolio.com/casestudy",
+      "technologies": [
+        {
+          "class": "fas fa-lightbulb",
+          "name": "Product Ownership"
+        },
+        {
+          "class": "fab fa-figma",
+          "name": "Figma"
+        },
+        {
+          "class": "fas fa-file-powerpoint",
+          "name": "PowerPoint"
+        },
+        {
+          "class": "fab fa-trello",
+          "name": "Trello"
+        }
+      ]
+    },
+    {
+      "title": "New Year Resolutions – Data Analysis",
+      "startDate": "2024",
+      "description": "This project involved analyzing a dataset of New Year resolutions using Python, pandas, and visualization libraries. I applied data cleaning, feature engineering, and exploratory analysis to reveal trends in user goals and categories. The project followed an Agile workflow for iterative insights and presentation.",
+      "images": [
+        "images/portfolio/data-analysis/data1.png"
+      ],
+      "url": "https://github.com/sarahamer13/new-year-resolutions-analysis",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "fas fa-database",
+          "name": "pandas"
+        },
+        {
+          "class": "fas fa-chart-bar",
+          "name": "matplotlib"
+        },
+        {
+          "class": "fas fa-chart-line",
+          "name": "seaborn"
+        }
+      ]
+    },
+    {
+      "title": "Park Finder – API & Frontend",
+      "startDate": "2023",
+      "description": "Built a full-stack park locator tool. I led requirement gathering and documentation, created an API roadmap, and collaborated on both backend and React frontend development. We used Trello for backlog grooming and Mural for wireframes.",
+      "images": [
+        "images/portfolio/data-analysis/parkfinder1.png"
+      ],
+      "url": "https://github.com/sarahamer13/park-finder",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "fab fa-trello",
+          "name": "Trello"
+        }
+      ]
+    },
+    {
+      "title": "MilkshakesRUs",
+      "startDate": "2023",
+      "description": "A team project that lets users build custom milkshakes through a short quiz. The result displays a recommended shake, along with its calorie count and price. I contributed to the form logic and modal-based UI.",
+      "images": [
+        "images/portfolio/milkshakesRUs/milkshakesrus1.png",
+        "images/portfolio/milkshakesRUs/milkshakesrus2.png",
+        "images/portfolio/milkshakesRUs/milkshakesrus3.png"
+      ],
+      "url": "https://codefellows-201n30-team1.github.io/MilkshakesRUs/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        }
+      ]
+    }
+  ]
+}
