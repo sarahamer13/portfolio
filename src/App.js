@@ -6,9 +6,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
+import Experience from "./components/Experience"; // ✅ Added
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -26,7 +26,7 @@ class App extends Component {
         ? `res_primaryLanguage.json`
         : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
-  }
+  };
 
   swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
     var pickedLangIconId =
@@ -39,7 +39,7 @@ class App extends Component {
     document
       .getElementById(pickedLangIconId)
       .setAttribute("filter", "brightness(40%)");
-  }
+  };
 
   componentDidMount = () => {
     this.loadSharedData();
@@ -47,7 +47,7 @@ class App extends Component {
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
     );
-  }
+  };
 
   loadResumeFromPath = (path) => {
     $.ajax({
@@ -61,7 +61,7 @@ class App extends Component {
         alert(err);
       },
     });
-  }
+  };
 
   loadSharedData = () => {
     $.ajax({
@@ -69,38 +69,55 @@ class App extends Component {
       dataType: "json",
       cache: false,
       success: function (data) {
-        this.setState({ sharedData: data }, () => document.title = `${this.state.sharedData.basic_info.name}`);
+        this.setState(
+          { sharedData: data },
+          () => (document.title = `${this.state.sharedData.basic_info.name}`)
+        );
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
       },
     });
-  }
+  };
 
   render() {
     return (
       <Router>
         <Header sharedData={this.state.sharedData} />
         <Routes>
-          <Route 
-            exact path="/" 
-            element={<Home
-              resumeData={this.state.resumeData}
-              sharedData={this.state.sharedData}
-            />}>
-          </Route>
-          <Route 
-            path="/about" 
-            element={<About
-              resumeBasicInfo={this.state.resumeData.basic_info}
-              sharedBasicInfo={this.state.sharedData.basic_info}
-            />}>
-          </Route>
+          <Route
+            exact
+            path="/"
+            element={
+              <Home
+                resumeData={this.state.resumeData}
+                sharedData={this.state.sharedData}
+              />
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <About
+                resumeBasicInfo={this.state.resumeData.basic_info}
+                sharedBasicInfo={this.state.sharedData.basic_info}
+              />
+            }
+          />
+          <Route
+            path="/experience"
+            element={
+              <Experience
+                resumeExperience={this.state.resumeData.experience}
+                resumeBasicInfo={this.state.resumeData.basic_info}
+              />
+            }
+          />
         </Routes>
-        <Footer 
+        <Footer
           sharedBasicInfo={this.state.sharedData.basic_info}
-          applyPickedLanguage={this.applyPickedLanguage} 
-        />  
+          applyPickedLanguage={this.applyPickedLanguage}
+        />
       </Router>
     );
   }
