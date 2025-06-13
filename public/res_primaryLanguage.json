@@ -25,22 +25,10 @@
       ],
       "url": "https://yourgooglesiteportfolio.com/casestudy",
       "technologies": [
-        {
-          "class": "fas fa-lightbulb",
-          "name": "Product Ownership"
-        },
-        {
-          "class": "fab fa-figma",
-          "name": "Figma"
-        },
-        {
-          "class": "fas fa-file-powerpoint",
-          "name": "PowerPoint"
-        },
-        {
-          "class": "fab fa-trello",
-          "name": "Trello"
-        }
+        { "class": "fas fa-lightbulb", "name": "Product Ownership" },
+        { "class": "fab fa-figma", "name": "Figma" },
+        { "class": "fas fa-file-powerpoint", "name": "PowerPoint" },
+        { "class": "fab fa-trello", "name": "Trello" }
       ]
     },
     {
@@ -52,22 +40,10 @@
       ],
       "url": "https://github.com/sarahamer13/new-year-resolutions-analysis",
       "technologies": [
-        {
-          "class": "devicon-python-plain",
-          "name": "Python"
-        },
-        {
-          "class": "fas fa-database",
-          "name": "pandas"
-        },
-        {
-          "class": "fas fa-chart-bar",
-          "name": "matplotlib"
-        },
-        {
-          "class": "fas fa-chart-line",
-          "name": "seaborn"
-        }
+        { "class": "devicon-python-plain", "name": "Python" },
+        { "class": "fas fa-database", "name": "pandas" },
+        { "class": "fas fa-chart-bar", "name": "matplotlib" },
+        { "class": "fas fa-chart-line", "name": "seaborn" }
       ]
     },
     {
@@ -79,22 +55,10 @@
       ],
       "url": "https://github.com/sarahamer13/park-finder",
       "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-mongodb-plain",
-          "name": "MongoDB"
-        },
-        {
-          "class": "fab fa-trello",
-          "name": "Trello"
-        }
+        { "class": "devicon-javascript-plain", "name": "JavaScript" },
+        { "class": "devicon-react-original", "name": "React" },
+        { "class": "devicon-mongodb-plain", "name": "MongoDB" },
+        { "class": "fab fa-trello", "name": "Trello" }
       ]
     },
     {
@@ -108,18 +72,37 @@
       ],
       "url": "https://codefellows-201n30-team1.github.io/MilkshakesRUs/",
       "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-html5-plain",
-          "name": "HTML5"
-        },
-        {
-          "class": "devicon-css3-plain",
-          "name": "CSS3"
-        }
+        { "class": "devicon-javascript-plain", "name": "JavaScript" },
+        { "class": "devicon-html5-plain", "name": "HTML5" },
+        { "class": "devicon-css3-plain", "name": "CSS3" }
+      ]
+    },
+    {
+      "title": "Salmon Cookies",
+      "startDate": "2023",
+      "description": "A browser-based cookie sales simulator that generates dynamic hourly sales tables for different locations. I handled form inputs, object modeling, and DOM manipulation to update store data in real-time.",
+      "images": [
+        "images/portfolio/salmon-cookies/salmon1.png"
+      ],
+      "url": "https://sarahamer13.github.io/cookie-stand/",
+      "technologies": [
+        { "class": "devicon-javascript-plain", "name": "JavaScript" },
+        { "class": "devicon-html5-plain", "name": "HTML5" },
+        { "class": "devicon-css3-plain", "name": "CSS3" }
+      ]
+    },
+    {
+      "title": "Gallery of Horns",
+      "startDate": "2023",
+      "description": "A React application that renders a catalog of horned animals from JSON data. Features include filtering, modals, and props-based rendering. I worked on state management and UI responsiveness.",
+      "images": [
+        "images/portfolio/gallery-of-horns/horns1.png"
+      ],
+      "url": "https://sarahamer13.github.io/gallery-of-horns/",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React" },
+        { "class": "devicon-html5-plain", "name": "HTML5" },
+        { "class": "devicon-css3-plain", "name": "CSS3" }
       ]
     }
   ]
