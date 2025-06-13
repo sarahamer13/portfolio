@@ -75,7 +75,7 @@
       "startDate": "2023",
       "description": "Built a full-stack park locator tool. I led requirement gathering and documentation, created an API roadmap, and collaborated on both backend and React frontend development. We used Trello for backlog grooming and Mural for wireframes.",
       "images": [
-        "images/portfolio/park-finder/parkfinder1.png"
+        "images/portfolio/data-analysis/parkfinder1.png"
       ],
       "url": "https://github.com/sarahamer13/park-finder",
       "technologies": [
