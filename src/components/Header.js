@@ -26,11 +26,14 @@ class Header extends Component {
   }
 
   render() {
-    let name = "";
-    if (this.props.sharedData) {
-      name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles;
-    }
+  let name = "";
+  this.titles = [];
+
+  if (this.props.sharedData && this.props.sharedData.basic_info) {
+    name = this.props.sharedData.basic_info.name;
+    this.titles = this.props.sharedData.basic_info.titles;
+  }
+
 
     return (
       <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
