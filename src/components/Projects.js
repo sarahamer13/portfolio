@@ -25,7 +25,7 @@ class Projects extends Component {
       projects = this.props.resumeProjects.map((project) => {
         return (
           <div
-            className="col-sm-12 col-md-6 col-lg-4 custom-project-card"
+            className="custom-project-card"
             key={project.title}
             style={{ cursor: "pointer" }}
           >
