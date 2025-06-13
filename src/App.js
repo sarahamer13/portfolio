@@ -80,7 +80,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header sharedData={this.state.sharedData} />
         <Routes>
           <Route 
             exact path="/" 
