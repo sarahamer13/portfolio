@@ -109,6 +109,11 @@ header .nav .nav-link.active {
   gap: 20px;
 }
 
+.custom-project-card {
+  width: calc(33.333% - 20px); /* 3 per row with spacing */
+  margin-bottom: 30px;
+}
+
 .skills-tile {
 	background-color: transparentize(#F8F5F4, 0.95);
 	padding: 10px 10px 5px 10px;
