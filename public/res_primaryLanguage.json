@@ -82,7 +82,7 @@
       "startDate": "2023",
       "description": "A browser-based cookie sales simulator that generates dynamic hourly sales tables for different locations. I handled form inputs, object modeling, and DOM manipulation to update store data in real-time.",
       "images": [
-        "images/portfolio/salmon-cookies/salmon1.png"
+        "images/portfolio/salmon-cookies/salmon cookies home.png"
       ],
       "url": "https://sarahamer13.github.io/cookie-stand/",
       "technologies": [
@@ -96,7 +96,7 @@
       "startDate": "2023",
       "description": "A React application that renders a catalog of horned animals from JSON data. Features include filtering, modals, and props-based rendering. I worked on state management and UI responsiveness.",
       "images": [
-        "images/portfolio/gallery-of-horns/horns1.png"
+        "images/portfolio/gallery-horns/gallery-horns-home.png"
       ],
       "url": "https://sarahamer13.github.io/gallery-of-horns/",
       "technologies": [
