@@ -102,18 +102,6 @@ header .nav .nav-link.active {
 	color: white;
 }
 
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.custom-project-card {
-  width: calc(33.333% - 20px); /* 3 per row with spacing */
-  margin-bottom: 30px;
-}
-
 .skills-tile {
 	background-color: transparentize(#F8F5F4, 0.95);
 	padding: 10px 10px 5px 10px;
@@ -396,7 +384,7 @@ header h1 {
 }
 
 .portfolio-item {
-  width: calc(33.333% - 20px); /* ensures 3 per row with spacing */
+  width: 100%;
   height: 420px;
   background: white;
   display: flex;
