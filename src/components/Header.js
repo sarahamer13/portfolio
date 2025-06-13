@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Switch from "@brookr/react-switch";
-import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav';
 import { LinkContainer } from "react-router-bootstrap";
 
 class Header extends Component {
@@ -26,20 +26,11 @@ class Header extends Component {
   }
 
   render() {
+    let name = "";
     if (this.props.sharedData) {
-      var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
+      name = this.props.sharedData.name;
+      this.titles = this.props.sharedData.titles;
     }
-
-   const HeaderTitleTypeAnimation = () => {
-  return (
-    <div>
-      {this.titles && this.titles.map((title, index) => (
-        <h3 className="header-title" key={index}>{title}</h3>
-      ))}
-    </div>
-  );
-};
 
     return (
       <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
@@ -51,18 +42,18 @@ class Header extends Component {
           </svg>
         </a>
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
-          <Nav.Item> 
+          <Nav.Item>
             <LinkContainer to="/">
               <Nav.Link href="/">Home</Nav.Link>
             </LinkContainer>
           </Nav.Item>
-          <Nav.Item>        
+          <Nav.Item>
             <LinkContainer to="/about">
               <Nav.Link eventKey="about">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
-            <Switch 
+            <Switch
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
               offColor="#baaa80"
@@ -104,18 +95,17 @@ class Header extends Component {
             />
           </Nav.Item>
         </Nav>
-        <div className="row aligner" style={{height: '100%'}}>
+        <div className="row aligner" style={{ height: "100%" }}>
           <div className="col-md-12">
             <div>
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
-              <h1 className="mb-0">
-               {name}
-              </h1>
+              <br />
+              <h1 className="mb-0" style={{ color: "#222" }}>{name}</h1>
               <div className="title-container">
-                <HeaderTitleTypeAnimation />
+                {this.titles && this.titles.map((title, index) => (
+                  <h3 className="header-title" key={index} style={{ color: "#555" }}>{title}</h3>
+                ))}
               </div>
-              
             </div>
           </div>
         </div>
