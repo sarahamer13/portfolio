@@ -11,11 +11,11 @@ class Projects extends Component {
   }
 
   render() {
-    let detailsModalShow = (data) => {
+    const detailsModalShow = (data) => {
       this.setState({ detailsModalShow: true, deps: data });
     };
 
-    let detailsModalClose = () => this.setState({ detailsModalShow: false });
+    const detailsModalClose = () => this.setState({ detailsModalShow: false });
 
     let sectionName;
     let projects;
@@ -25,7 +25,7 @@ class Projects extends Component {
       projects = this.props.resumeProjects.map((project) => {
         return (
           <div
-            className="custom-project-card"
+            className="col-sm-12 col-md-6 col-lg-4"
             key={project.title}
             style={{ cursor: "pointer" }}
           >
@@ -57,7 +57,7 @@ class Projects extends Component {
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">
-            <div className="row mx-auto justify-content-center project-grid">
+            <div className="row mx-auto justify-content-center">
               {projects}
             </div>
           </div>
