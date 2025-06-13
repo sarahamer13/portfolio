@@ -1,4 +1,5 @@
-"basic_info": {
+{
+  "basic_info": {
   "name": "Sarah Mahdi",
   "titles": [
     "Product Owner",
@@ -12,6 +13,7 @@
     "skills": "Skills",
     "experience": "Experience"
   }
+}
 },
   "projects": [
     {
