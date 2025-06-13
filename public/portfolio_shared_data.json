@@ -78,5 +78,68 @@
         "level": "80"
       }
     ]
-  }
+  },
+  "experience": [
+    {
+      "title": "Arabic Linguist & Cultural Advisor",
+      "company": "U.S. Military",
+      "years": "2008 – 2012",
+      "description": [
+        "Provided translation, transcription, and cultural expertise in support of military operations.",
+        "Supported intelligence missions through language interpretation and cross-cultural communication.",
+        "Operated in high-pressure environments with strict security protocols."
+      ]
+    },
+    {
+      "title": "Patient Access Case Manager / Pharmaceutical Liaison",
+      "company": "AmerisourceBergen",
+      "years": "2014 – 2018",
+      "description": [
+        "Coordinated patient access to specialty medications, working with insurance providers, physicians, and pharmacies.",
+        "Specialized in regulatory compliance, case management, and healthcare communication.",
+        "Supported cross-functional healthcare teams with data and documentation."
+      ]
+    },
+    {
+      "title": "Full-Stack Software Development Trainee",
+      "company": "Code Fellows",
+      "years": "2021 – 2023",
+      "description": [
+        "Built and deployed front-end and back-end projects, including interactive sites and API-based tools.",
+        "Gained hands-on experience in JavaScript, React, HTML/CSS, Node.js, and MongoDB.",
+        "Worked on team projects using Agile and Scrum methodologies."
+      ]
+    },
+    {
+      "title": "Certified Scrum Product Owner & Scrum Master",
+      "company": "Freelance Projects / Training",
+      "years": "2023 – 2024",
+      "description": [
+        "Completed CSPO and CSM certifications.",
+        "Applied Agile principles to manage sprints and backlogs.",
+        "Led user research and MVP planning for product and portfolio projects."
+      ]
+    },
+    {
+      "title": "Graduate Student – M.S. in Cybersecurity Engineering",
+      "company": "University of San Diego",
+      "years": "2024 – Present",
+      "description": [
+        "Conducting hands-on labs in vulnerability assessment, Nmap scanning, and Windows security hardening.",
+        "Collaborating on capstone projects blending healthcare, product management, and cybersecurity principles.",
+        "Building a portfolio of simulations and educational tools."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Healthcare Administration",
+      "school": "University of Phoenix",
+      "years": "2012–2014",
+      "details": [
+        "Focused on healthcare systems, regulatory policies, and patient services.",
+        "Developed foundational knowledge in healthcare operations that supported later roles in patient access and pharmaceutical liaison."
+      ]
+    }
+  ]
 }
