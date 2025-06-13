@@ -391,10 +391,8 @@ header h1 {
 }
 
 .portfolio-item {
-  width: 100%;
-  max-width: 340px; // slightly wider cards
+  width: calc(33.333% - 20px); /* ensures 3 per row with spacing */
   height: 420px;
-  margin: 10px;
   background: white;
   display: flex;
   flex-direction: column;
@@ -405,6 +403,7 @@ header h1 {
   overflow: hidden;
   text-align: center;
 }
+
 
 .project-image {
   width: 100%;
@@ -430,13 +429,16 @@ header h1 {
 	font-size: 1.5rem;
 }
 
-@media (min-width: 576px) {
-	.portfolio .closeButtonResponsive {
-		display: block;
-	}
-	.portfolio .portfolio-item {
-		margin-bottom: 30px;
-	}
+@media (max-width: 992px) {
+  .portfolio-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .portfolio-item {
+    width: 100%;
+  }
 }
 
 #skills {
