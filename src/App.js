@@ -56,6 +56,7 @@ class App extends Component {
       dataType: "json",
       cache: false,
       success: function (data) {
+        console.log("✅ resumeData loaded:", data); // Log resume data
         this.setState({ resumeData: data });
       }.bind(this),
       error: function (xhr, status, err) {
@@ -117,10 +118,15 @@ class App extends Component {
           <Route
             path="/education"
             element={
-              <Education
-                resumeEducation={this.state.resumeData.education}
-                resumeBasicInfo={this.state.resumeData.basic_info}
-              />
+              this.state.resumeData.education &&
+              this.state.resumeData.basic_info ? (
+                <Education
+                  resumeEducation={this.state.resumeData.education}
+                  resumeBasicInfo={this.state.resumeData.basic_info}
+                />
+              ) : (
+                <div className="text-center py-5">Loading education...</div>
+              )
             }
           />
         </Routes>
