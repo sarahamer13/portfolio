@@ -19,8 +19,7 @@
     {
       "title": "Flashcard Simulation – Iraqi Arabic for Kids",
       "startDate": "2025",
-      "description": "A clickable flashcard simulation designed to teach Iraqi Arabic greetings to young learners using cartoon animals. As a Product Owner, I created the MVP scope, backlog, and prototype in PowerPoint, and structured it for online use as a printable learning product. This project showcases my ability to lead educational UX design and Agile documentation.",
-      "images": [
+      "description": "A work-in-progress flashcard simulation aimed at teaching Iraqi Arabic greetings to young learners through engaging cartoon characters. I defined the MVP, built a user-centered prototype, and developed both printable and digital-ready assets. This project demonstrates my product ownership skills across educational design, iterative development, and cross-cultural UX strategy.",
         "images/portfolio/flashcards/flashcard1.png",
         "images/portfolio/flashcards/flashcard2.png"
       ],
@@ -28,8 +27,9 @@
       "technologies": [
         { "class": "fas fa-lightbulb", "name": "Product Ownership" },
         { "class": "fab fa-figma", "name": "Figma" },
+        { "class": "fas fa-palette", "name": "Canva" },
         { "class": "fas fa-file-powerpoint", "name": "PowerPoint" },
-        { "class": "fab fa-trello", "name": "Trello" }
+        { "class": "fab fa-jira", "name": "Jira" }
       ]
     },
     {
