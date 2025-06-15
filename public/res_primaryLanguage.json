@@ -11,7 +11,14 @@
     "projects": "Projects",
     "skills": "Skills",
     "experience": "Experience",
+    "education": "Education",
+    "section_name": {
+    "about": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
     "education": "Education"
+  }
 },
   "projects": [
     {
