@@ -175,5 +175,31 @@
       "Quality Improvement"
     ]
   }
-]
+],
+  "skills": [
+    {
+      "name": "Product Management",
+      "value": 90
+    },
+    {
+      "name": "Cybersecurity",
+      "value": 85
+    },
+    {
+      "name": "JavaScript",
+      "value": 80
+    },
+    {
+      "name": "React",
+      "value": 80
+    },
+    {
+      "name": "Python",
+      "value": 75
+    },
+    {
+      "name": "Agile / Scrum",
+      "value": 90
+    }
+  ]
 }
