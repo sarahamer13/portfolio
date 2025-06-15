@@ -168,7 +168,12 @@
     "description": "Majored in Healthcare Management",
     "mainTech": ["Healthcare Systems"],
     "technologies": [
-      "Patient Access", "Healthcare Policy", "Operations"
+      "Patient Access",
+      "Healthcare Policy",
+      "Operations Management",
+      "Medical Terminology",
+      "HIPAA Compliance",
+      "Quality Improvement"
     ]
   }
 ]
