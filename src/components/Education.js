@@ -20,6 +20,11 @@ class Education extends Component {
               </h4>
               <h5 className="text-muted">{edu.school}</h5>
               <p className="text-secondary mb-1"><strong>Years:</strong> {edu.years}</p>
+
+              {edu.description && (
+                <p className="text-secondary mb-2">{edu.description}</p>
+              )}
+
               {edu.technologies && (
                 <ul className="mb-0">
                   {edu.technologies.map((tech, index) => (
