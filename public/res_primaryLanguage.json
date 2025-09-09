@@ -133,21 +133,30 @@
       ]
     },
     {
-      "title": "Full-Stack Software Development Trainee",
-      "company": "Code Fellows",
-      "years": "2021 – 2023",
+      "title": "Software Engineer Apprentice",
+      "company": "Code Fellows & General Assembly",
+      "years": "2022 – 2024",
       "mainTech": ["JavaScript", "React", "MongoDB"],
       "technologies": [
         "HTML", "CSS", "Node.js", "Agile", "Scrum"
       ]
     },
     {
-      "title": "Certified Scrum Product Owner & Scrum Master",
+      "title": "Certified Scrum Product Owner & Scrum Master, Google Project Management",
       "company": "Freelance Projects / Training",
-      "years": "2023 – 2024",
+      "years": "2024",
       "mainTech": ["CSPO", "CSM"],
       "technologies": [
         "User Research", "MVP Planning", "Sprint Management"
+      ]
+    },
+    {
+      "title": "Product Manager Fellow",
+      "company": "Fellowship",
+      "years": "2024",
+      "mainTech": ["Product Management"],
+      "technologies": [
+        "User Research", "MVP Planning", "Product Roadmapping & Vision"
       ]
     }
   ],
