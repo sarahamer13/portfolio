@@ -2,8 +2,8 @@
   "basic_info": {
     "name": "Sarah Mahdi",
     "titles": [
-      "Product Owner",
-      "CSPO | CSM |",
+      "Product Manager",
+      "CSPO | CSM |Veteran",
       "Healthcare & Cybersecurity Background"
     ],
     "social": [
@@ -101,9 +101,9 @@
       ]
     },
     {
-      "title": "Full-Stack Software Development Trainee",
-      "company": "Code Fellows",
-      "years": "2021 – 2023",
+      "title": "Software Engineer Apprentice",
+      "company": "Code Fellows & General Assembly",
+      "years": "2022-2024",
       "description": [
         "Built and deployed front-end and back-end projects, including interactive sites and API-based tools.",
         "Gained hands-on experience in JavaScript, React, HTML/CSS, Node.js, and MongoDB.",
@@ -111,9 +111,9 @@
       ]
     },
     {
-      "title": "Certified Scrum Product Owner & Scrum Master",
+      "title": "Certified Scrum Product Owner & Scrum Master, Google Project Management",
       "company": "Freelance Projects / Training",
-      "years": "2023 – 2024",
+      "years": "2025",
       "description": [
         "Completed CSPO and CSM certifications.",
         "Applied Agile principles to manage sprints and backlogs.",
@@ -125,7 +125,7 @@
     {
       "degree": "M.S. in Cybersecurity Engineering",
       "school": "University of San Diego",
-      "years": "2024 – Present",
+      "years": "2025 – Present",
       "details": [
         "Conducting hands-on labs in vulnerability assessment, Nmap scanning, and Windows security hardening.",
         "Collaborating on capstone projects blending healthcare, product management, and cybersecurity principles.",
@@ -135,7 +135,7 @@
     {
       "degree": "Bachelor of Science in Healthcare Administration",
       "school": "University of Phoenix",
-      "years": "2012–2014",
+      "years": "2011–2014",
       "details": [
         "Focused on healthcare systems, regulatory policies, and patient services.",
         "Developed foundational knowledge in healthcare operations that supported later roles in patient access and pharmaceutical liaison."
