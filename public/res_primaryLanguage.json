@@ -153,13 +153,22 @@
     {
       "title": "Product Manager Intern",
       "company": "CRWD",
+      "years": "2025 - 2026",
+      "mainTech": ["Product Management"],
+      "technologies": [
+        "User Research", "MVP Planning", "Product Roadmapping & Vision"
+      ]
+    },
+    {
+      "title": "AI Task Force Analyst",
+      "company": "Mt. Diablo District",
       "years": "2025 - Present",
       "mainTech": ["Product Management"],
       "technologies": [
         "User Research", "MVP Planning", "Product Roadmapping & Vision"
       ]
-    }
-  ],
+    },
+  ]
   "education": [
   {
     "title": "M.S. in Cybersecurity Engineering",
